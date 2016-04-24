@@ -3,8 +3,8 @@ rubbish
 srgs fgv sregv sfd gsrgrtdbrtg sevbdr br dvdr
 s regr dsvbrgtdtfh
 
-орлдрдлор эо
-о ло
- ол 
- ж ожощшодж о
+орлдрдлор эопрлп 
+ олдо лодр лорлд пло 
+ олдэ рдлр ло 
+  рдолорлдородлролд 
   лджлолж
