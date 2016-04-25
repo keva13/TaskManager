@@ -1,0 +1,197 @@
+.icon-flipped {
+transform: scaleX(-1);
+-moz-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+-ms-transform: scaleX(-1);
+}
+
+.button-back{
+	position: absolute;
+	top:8px;
+	right: 20px;
+}
+
+a{text-decoration: none;}
+a:hover{text-decoration: none; cursor: pointer;}
+
+textarea{height: 300px; }
+.menuAdd{
+	background-color: rgb(245,245,245);
+    padding-right: 50px;
+    text-align: right;
+}
+
+
+.navbar-text ul{padding:0px;}
+.navbar-text li{
+	display: inline;
+	margin-left: 20px;
+	font-size: 15px;
+}
+.navbar{border-radius: 0px !important;}
+h4{
+	display: inline;
+	color: #337ab7;
+}
+.sprint ul{
+	color: #5bc0de;
+	width: 30%;
+
+}
+
+.panel-default>.panel-heading {
+	padding-top: 12px;
+    height: 40px;
+}
+.panel-heading{
+	padding-top: 19px;
+    height: 60px;
+}
+
+
+span.glyphicon, img{
+	cursor: pointer;
+	margin-left: 10px;
+}
+.panel-group span.glyphicon, img{
+	float: right;
+}
+
+
+
+.Project{
+	height: 70px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+.Project h4{
+	cursor: pointer;
+}
+.idProject{
+	display: none;
+}
+
+
+
+
+.sprint{
+	border-radius: 0px;
+}
+.panel-group {
+	padding-right: 51%;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.accordion-text {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+	white-space: nowrap; /* Отменяем перенос текста */
+	overflow: hidden; /* Обрезаем содержимое */
+	text-overflow: ellipsis; /* Многоточие */
+	height: 20px;
+
+}
+
+
+
+
+
+.task_block{
+	float: left;
+	width: 70%;
+	height: 70px;
+	float: right;
+	padding: 5px;
+	overflow: auto;
+}
+.task_block div{
+	cursor: pointer;
+	padding-left: 8px;
+	float: left;
+	width: 130px;
+    height: 20px;
+    overflow: hidden;
+}
+.task{
+    font-size: 15px;
+	color: #559999;
+	/*padding-right: 70%;*/
+	text-align: justify;
+}
+
+
+
+
+.addTaskForm{
+	padding-right: 74%;
+}
+.modal-body .addTaskForm{
+	margin: 0px;    
+	padding: 0px 40% 0px 0px;
+}
+.ui-draggable-dragging{
+	width: 89%;	
+}
+
+.glyphicon-trash{
+	color: red;
+}
+.glyphicon-pencil{
+	color: black;
+}
+.modal-open button{
+	width: auto;
+	margin-left: 5px;
+}
+.label{
+	margin-left: 25px;
+	cursor: pointer;
+}
+
+
+
+
+.dashboardTask{
+	height: 100px;
+	background-color: white;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.modal-body .addTaskForm{
+	background-color: white;
+	border: 0px;
+}
+
+.dashboard .block{
+	margin: auto;
+	height: calc(100% - 128px);
+	overflow-y:auto;
+	background-color: #DEDEDE;
+	border: 1px solid #F0F0F0;
+	border-radius: 3px;
+	box-shadow: 0px 0px 100px -66px #000000 inset;
+}
+
+.block.active {
+    border: 1px solid #DEDFD7;
+    background: #E9E9E9 50% top;
+    /* background-repeat: no-repeat; */
+    color: #1f1f1f;
+}
+
+
+.dashboardTask{
+	z-index: 4;
+	cursor: move;
+}
+
+
+
+
+.panel-body.userId h4{
+	    line-height: 1.7;
+	    cursor: pointer;
+}
